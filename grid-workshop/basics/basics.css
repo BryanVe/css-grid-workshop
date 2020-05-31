@@ -1,0 +1,22 @@
+#wrapper {
+  display: grid;
+
+  /* normal */
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px 200px;
+
+  /* shorthand */
+  /* grid-template: <grid-template-rows> / <grid-template-column> */
+  /* grid-template: 100px 200px / 100px 100px; */
+
+  /* ------------------------ */
+
+  /* normal */
+  /* column-gap: 10px;
+  row-gap: 20px; */
+
+  /* shorthand */
+  /* gap: <row-gap> <column-gap> */
+  /* if you put only one value, it will be applied to both (row-gap and column-gap) */
+  gap: 20px;
+}

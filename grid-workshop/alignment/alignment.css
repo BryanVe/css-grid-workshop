@@ -1,0 +1,30 @@
+#wrapper {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 200px);
+
+  /* normal */
+  justify-items: stretch;
+  align-items: start;
+
+  /* shorthand */
+  /* place-items: <align-items> <justify-items> */
+  /* place-items: center center; */
+
+  /* ------------------------------------------------ */
+
+  /* normal */
+  /* justify-content: space-between;
+  align-content: space-between; */
+
+  /* shorthand */
+  /* place-content: <align-content> <justify-content>; */
+  /* place-content: space-between space-evenly; */
+}
+
+.item-5 {
+  /* in order to align only one item, you can use */
+  justify-self: stretch;
+  align-self: stretch;
+}

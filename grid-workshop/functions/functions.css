@@ -1,0 +1,15 @@
+#wrapper {
+  display: grid;
+
+  /* you can use this way to specify your columns */
+  /* grid-template-columns: 1fr 1fr 1fr; */
+
+  /* or you can use the repeat() function */
+  /* grid-template-columns: repeat(number_of_columns, column_size) */
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 20px;
+
+  /* in order to specify a minimum and maximum size, you can use minmax(min_size, max_size) function */
+  /* grid-template-columns: 200px 300px minmax(100px, 1fr); */
+}

@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 50px;
+  padding: 20px;
+}
+
+#wrapper {
+  margin: auto;
+  width: 90%;
+  max-width: 900px;
+  border: 5px solid #000;
+  font-size: 40px;
+}
+
+.grid-item {
+  background-color: darkcyan;
+  color: #fff;
+  text-align: center;
+}
